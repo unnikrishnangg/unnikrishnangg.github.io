@@ -30,6 +30,7 @@ remote_theme: fongandrew/hydeout
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
