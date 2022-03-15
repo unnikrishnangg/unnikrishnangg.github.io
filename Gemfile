@@ -36,4 +36,3 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "webrick", "~> 1.7"
 gem "jekyll-paginate", "~> 1.1.0"
-gem "jekyll-theme-hydeout", "~> 4.1"
