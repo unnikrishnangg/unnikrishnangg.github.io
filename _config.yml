@@ -21,7 +21,6 @@ url: 'https://devopslife.io'
 name: Devopslife
 description: 'Straight to the point'
 title: Devopslife
-baseurl: "" # the subpath of your site, e.g. /blog
 
 # Build settings
 #theme: minima
