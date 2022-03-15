@@ -51,3 +51,5 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 paginate: 10
+
+theme: jekyll-theme-slate
