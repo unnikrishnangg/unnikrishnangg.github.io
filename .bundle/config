@@ -1,0 +1,7 @@
+---
+BUNDLE_BUILD__NOKOGIRI: "--with-cppflags=-I/usr/local/opt/openssl/include"
+BUNDLE_BUILD__JEKYLL: "--with-cppflags=-I/usr/local/opt/openssl/include"
+BUNDLE_BUILD__MINIMA: "--with-cppflags=-I/usr/local/opt/openssl/include"
+BUNDLE_BUILD__JEKYLL___FEED: "--with-cppflags=-I/usr/local/opt/openssl/include"
+BUNDLE_BUILD__EM___WEBSOCKET: "--with-cppflags=-I/usr/local/opt/openssl/include"
+BUNDLE_BUILD__EVENTMACHINE: "--with-cppflags=-I/usr/local/opt/openssl/include"
