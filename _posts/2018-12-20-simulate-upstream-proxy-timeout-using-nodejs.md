@@ -5,6 +5,8 @@ description: "Simulate nginx upstream timeout using nodejs. this is useful when 
 date: '2018-12-20T16:20:07+00:00'
 author: Unni
 layout: post
+redirect_from:
+    - /tag/simulate-upstream-proxy-timeot/
 guid: 'https://devopslife.io/?p=51'
 permalink: /simulate-upstream-proxy-timeout-using-nodejs/
 categories:

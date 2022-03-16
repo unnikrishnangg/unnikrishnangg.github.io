@@ -5,6 +5,9 @@ date: '2019-02-15T19:09:15+00:00'
 author: Unni
 layout: post
 guid: 'https://devopslife.io/?p=91'
+redirect_from:
+    - /tag/switch-role-in-boto3/
+    - /using-boto3-with-aws-iam/
 permalink: /using-profiles-in-boto3/
 description: "using aws profiles in boto3. this is useful if you have defined multiple aws profiles in your shell "
 categories:

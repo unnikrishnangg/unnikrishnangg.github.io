@@ -10,6 +10,8 @@ description: "access denied when using GRANT *.* in AWS RDS mysql. This is usefu
 categories:
     - AWS
     - RDS
+redirect_from:
+    - /tag/error-1045-28000-access-denied-for-user-admin-using-password-yes/
 tags:
     - 'access denied for user admin rds'
     - 'Access denied when using GRANT ALL ON *.* in AWS RDS Mysql'

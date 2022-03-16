@@ -27,6 +27,7 @@ plugins:
   - jemoji
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 paginate: 10
 

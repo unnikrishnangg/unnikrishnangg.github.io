@@ -7,6 +7,8 @@ layout: post
 guid: 'https://devopslife.io/?p=127'
 description: "simulating cloudwatch alarms using aws cli. This is useful to test cloudwatch alarms before putting it to production"
 permalink: /testing-cloudwatch-alarm-using-aws-cli/
+redirect_from:
+    - /trigger-cloudwatch-alarm-manuallu/
 categories:
     - CLI
     - Cloudwatch

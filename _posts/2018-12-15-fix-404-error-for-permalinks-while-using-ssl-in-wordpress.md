@@ -6,6 +6,8 @@ description: "fix 404 errors for permalinks while using SSL in wordpress"
 author: Unni
 layout: post
 guid: 'https://devopslife.io/?p=37'
+redirect_from:
+    - /tag/wordpress-5-permalinks-issue/
 permalink: /fix-404-error-for-permalinks-while-using-ssl-in-wordpress/
 categories:
     - wordpress

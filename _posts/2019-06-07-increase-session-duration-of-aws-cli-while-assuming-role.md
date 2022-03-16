@@ -4,6 +4,8 @@ title: 'Increase session duration of AWS CLI while assuming role'
 date: '2019-06-07T06:44:25+00:00'
 description: "Increase session duration of aws cli while assuming a role."
 author: Unni
+redirect_from:
+    - /tag/increase-boto3-session-timeout/
 layout: post
 guid: 'https://devopslife.io/?p=119'
 permalink: /increase-session-duration-of-aws-cli-while-assuming-role/
