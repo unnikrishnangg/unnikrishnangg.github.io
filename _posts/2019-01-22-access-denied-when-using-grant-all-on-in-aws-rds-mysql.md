@@ -6,6 +6,7 @@ author: Unni
 layout: post
 guid: 'https://devopslife.io/?p=70'
 permalink: /access-denied-when-using-grant-all-on-in-aws-rds-mysql/
+description: "access denied when using GRANT *.* in AWS RDS mysql. This is useful to grant all privleges to an additional admin user."
 categories:
     - AWS
     - RDS
@@ -18,6 +19,8 @@ tags:
     - 'ERROR 1045 (28000): Access denied for user ''admin''@''%'' (using password: YES)'
     - 'rds mysql grant all issue'
     - 'Using "GRANT ALL" With Amazon''s MySQL RDS'
+    - AWS
+    - RDS
 ---
 
 I was totally unaware about the fact that even a master account doesn’t have all the privileges in an RDS database(MySQL) until I got stuck with this issue. Today, I was asked to create a secondary admin user in one of our production DB with all privileges. The MySQL DB instance was running in AWS RDS. I tried the following command

@@ -5,9 +5,10 @@ date: '2019-12-07T16:05:25+00:00'
 author: Unni
 layout: post
 guid: 'https://devopslife.io/?p=130'
+description: 'We are checking how to manage AWS SimpleAD using a linux machine as this service is biased to Windows. There is no straightforward way to manage SimpleAD from linux when I am writing this post'
 permalink: /managing-aws-simplead-from-linux/
 categories:
-    - Uncategorized
+    - aws
 tags:
     - 'adcli commands'
     - 'adcli in ubuntu'
@@ -20,6 +21,8 @@ tags:
     - 'simplead user management in centos'
     - 'simplead user management in linux'
     - 'simplead user management in ubuntu'
+    - aws
+    - simpleAD
 ---
 
 SimpleAD is a managed directory service that is powered by a Samba 4 Active Directory Compatible Server. User accounts can be created in SimpleAD to access AWS applications such as AWS Client VPN, Amazon WorkSpaces, Amazon WorkDocs, or Amazon WorkMail.

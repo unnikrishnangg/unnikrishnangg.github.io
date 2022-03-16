@@ -2,6 +2,7 @@
 id: 119
 title: 'Increase session duration of AWS CLI while assuming role'
 date: '2019-06-07T06:44:25+00:00'
+description: "Increase session duration of aws cli while assuming a role."
 author: Unni
 layout: post
 guid: 'https://devopslife.io/?p=119'
@@ -18,6 +19,8 @@ tags:
     - 'increase boto3 session timeout'
     - 'increase cli timeout'
     - 'Increase session duration of AWS CLI while assuming role'
+    - aws
+    - iam
 ---
 
 This will be useful for you if you are using profile in aws CLI configuration files for switching roles with 2FA enabled. An example configuration as follows.

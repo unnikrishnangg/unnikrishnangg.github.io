@@ -31,7 +31,7 @@ plugins:
 paginate: 10
 
 sidebar_home_link: true
-enable_disqus: false
+enable_disqus: true
 enable_commento: false
 
 
@@ -67,3 +67,6 @@ jekyll_compose:
 # Compress CSS files
 sass:
     style: compressed
+
+disqus:
+  shortname: devopslife-io-1

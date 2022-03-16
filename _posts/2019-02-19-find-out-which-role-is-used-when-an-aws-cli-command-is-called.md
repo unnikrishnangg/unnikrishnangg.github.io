@@ -6,8 +6,10 @@ author: Unni
 layout: post
 guid: 'https://devopslife.io/?p=102'
 permalink: /find-out-which-role-is-used-when-an-aws-cli-command-is-called/
+description: "find which role is being used when an aws cli command is called. This is useful to find the role usage and narrowing the priveleges"
 categories:
     - AWS
+    - python
 tags:
     - 'find iam role'
     - 'find iam role of aws cli'
@@ -15,6 +17,9 @@ tags:
     - 'find instance profile of aws cli'
     - 'find out iam role'
     - 'Find out which role is used when an AWS CLI command is called'
+    - aws
+    - python
+    - boto
 ---
 
 This is very useful if you are running an AWS command on an ec2 instance which is using an IAM role or instance profile and you would like to verify if it is using the intended role.

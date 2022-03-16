@@ -2,12 +2,13 @@
 id: 37
 title: 'Fix 404 error for permalinks while using SSL in wordpress'
 date: '2018-12-15T08:11:00+00:00'
+description: "fix 404 errors for permalinks while using SSL in wordpress"
 author: Unni
 layout: post
 guid: 'https://devopslife.io/?p=37'
 permalink: /fix-404-error-for-permalinks-while-using-ssl-in-wordpress/
 categories:
-    - Uncategorized
+    - wordpress
 tags:
     - '404 error wordpress'
     - '404 error wordpress permlinks'
@@ -18,6 +19,7 @@ tags:
     - 'wordpress 5 permalinks issue'
     - 'wordpress giving 404 for permalinks'
     - 'wordpress permalinks not working'
+    - wordpress
 ---
 
 This was an issue I have faced while setting up this blog. I was getting 404 errors for all the post links in this blog when selecting the non default permalink structure with SSL.

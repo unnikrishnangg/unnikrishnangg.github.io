@@ -5,6 +5,7 @@ date: '2019-02-12T16:17:29+00:00'
 author: Unni
 layout: post
 guid: 'https://devopslife.io/?p=84'
+description: get notified when somebody login using root account. it is recommended to use separate non-root IAM accounts and keep root account safe.
 permalink: /get-notified-on-aws-root-account-login/
 categories:
     - AWS
@@ -20,6 +21,7 @@ tags:
     - 'get sns alert for iam login'
     - 'sns alert for iam login'
     - 'sns alert for root login'
+    - AWS
 ---
 
 The best practice always is to create IAM logins for each user in an organization rather than sharing the root account. Most of the companies are following this trend as per their compliance regulations. But what if the root account is compromised by some way?

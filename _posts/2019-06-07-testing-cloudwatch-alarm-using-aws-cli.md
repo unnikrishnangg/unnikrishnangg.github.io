@@ -5,10 +5,12 @@ date: '2019-06-07T07:22:00+00:00'
 author: Unni
 layout: post
 guid: 'https://devopslife.io/?p=127'
+description: "simulating cloudwatch alarms using aws cli. This is useful to test cloudwatch alarms before putting it to production"
 permalink: /testing-cloudwatch-alarm-using-aws-cli/
 categories:
     - CLI
     - Cloudwatch
+    - aws
 tags:
     - aws cli test cloudwatch
     - aws
@@ -20,6 +22,8 @@ tags:
     - testing cloudwatch alarm
     - trigger cloudwatch alarm manuallu
     - trigger cloudwatch alarm manually
+    - Cloudwatch
+    - aws
 ---
 
 Many of us are using Cloudwatch alarms for triggering some action. It could be an SNS or a lambda function etc. We can use this AWS CLI command to temporarily set cloudwatch alarm state for testing purposes.

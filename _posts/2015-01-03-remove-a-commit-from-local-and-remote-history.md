@@ -1,6 +1,7 @@
 ---
 id: 21
 title: 'Remove a commit from local and remote history'
+description: "Remove a git commit from both local and remote history"
 date: '2015-01-03T16:24:00+00:00'
 author: Unni
 layout: post
@@ -8,6 +9,8 @@ guid: 'https://devopslife.io/?p=21'
 permalink: /remove-a-commit-from-local-and-remote-history/
 categories:
     - Uncategorized
+tags:
+    - git
 ---
 
 > - git reset –soft commit\_id

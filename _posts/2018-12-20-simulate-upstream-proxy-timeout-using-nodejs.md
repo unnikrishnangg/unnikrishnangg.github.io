@@ -1,13 +1,14 @@
 ---
 id: 51
 title: 'Simulate upstream proxy timeout using nodejs'
+description: "Simulate nginx upstream timeout using nodejs. this is useful when we want to simulate slowness in upstream without making it completely down"
 date: '2018-12-20T16:20:07+00:00'
 author: Unni
 layout: post
 guid: 'https://devopslife.io/?p=51'
 permalink: /simulate-upstream-proxy-timeout-using-nodejs/
 categories:
-    - Uncategorized
+    - nodeJS
 tags:
     - 'how to test proxy_read_timeout'
     - nginx
@@ -15,6 +16,7 @@ tags:
     - 'Simulate upstream proxy timeot'
     - 'Simulate upstream proxy timeout using nodejs'
     - upstream_proxy_timeout
+    - nodeJS
 ---
 
 This is something that I have came across while tuning an nginx server which has multiple tomcat instances as upstream. We were trying to adjust the read timeout of the upstream proxies. It is hard to simulate this by stopping the backend as it will throw a 503 bad gateway. So, for simulating this, we used a nodejs script.

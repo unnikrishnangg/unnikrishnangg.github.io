@@ -6,8 +6,10 @@ author: Unni
 layout: post
 guid: 'https://devopslife.io/?p=91'
 permalink: /using-profiles-in-boto3/
+description: "using aws profiles in boto3. this is useful if you have defined multiple aws profiles in your shell "
 categories:
     - AWS
+    - python
 tags:
     - 'aws boto3'
     - 'how to switch profile in boto3'
@@ -15,6 +17,8 @@ tags:
     - 'switch profile in boto3'
     - 'switch role in boto3'
     - 'using boto3 with aws iam'
+    - python
+    - aws
 ---
 
 If you are a boto3 user and have multiple AWS profiles defined in your shell, I am sure that you have faced this issue at least once. Boto3 loads the default profile if you don’t specify explicitly. I am trying to explain how to specify AWS profiles while using boto3.

@@ -5,6 +5,7 @@ date: '2019-02-25T15:31:16+00:00'
 author: Unni
 layout: post
 guid: 'https://devopslife.io/?p=117'
+description: "redirect a route53 domain to another domain using S3. Route53 wont allow redirection of an apex domain to another external domain. we can make it working using this trick"
 permalink: /redirect-a-route53-domain-to-another-domain-using-s3/
 categories:
     - AWS
@@ -15,6 +16,8 @@ tags:
     - 'redirect to external domain using route53'
     - 'redirect to https using route53'
     - 'simple redirect in route53'
+    - AWS
+    - Route53
 ---
 
 If you recently migrated your domain &amp; DNS records from some third party domain registrar to AWS Route 53, you might be searching a way to configure a simple redirect of the apex (root) domain to an external domain. Many companies used to buy all the popular TLDs of their domains to avoid cybersquatting. All of those domains will be configured with a simple redirect to the main domain. It was easy while using the domain registrar’s DNS service as we were able to configure the redirect there with ease.   

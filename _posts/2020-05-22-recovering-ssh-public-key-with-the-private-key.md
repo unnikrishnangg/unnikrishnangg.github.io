@@ -6,8 +6,10 @@ author: Unni
 layout: post
 guid: 'https://devopslife.io/?p=135'
 permalink: /recovering-ssh-public-key-with-the-private-key/
+description: 'Recovering ssh public key using the private key. This is useful when we are trying to add our public key to authorized_keys somewhere else and we can generate the public key directly even if we miss the public key we generated earlier.'
 categories:
     - Linux
+    - SSH
 tags:
     - 'find deleted public key'
     - 'find public key with private'
@@ -18,6 +20,7 @@ tags:
     - 'Recovering SSH public key with the private key'
     - 'ssh passwordless authentication'
     - ssh-keygen
+    - ssh
 ---
 
 I recently came across this situation by which the public SSH key of a server is lost and I was instructed to add the public key to other server’s authorized\_hosts file to enable password less SSH authentication. However I was not allowed to create a new keypair as the old key could be in place in multiple places. This ssh-keygen command was a lifesaver.

@@ -1,13 +1,16 @@
 ---
 id: 11
 title: 'Delete a git commit that is already pushed'
+description: "delete a git commit that is already pushed"
 date: '2014-12-07T09:54:00+00:00'
 author: Unni
 layout: post
 guid: 'https://devopslife.io/?p=8'
 permalink: /delete-a-git-commit-that-is-already-pushed/
 categories:
-    - Uncategorized
+    - git
+tags:
+    - git
 ---
 
 <div>> <div>git log</div>

@@ -1,13 +1,16 @@
 ---
 id: 18
 title: 'Renaming git branch'
+description: Renaming a git branch.
 date: '2014-12-09T16:22:00+00:00'
 author: Unni
 layout: post
 guid: 'https://devopslife.io/?p=18'
 permalink: /renaming-git-branch/
 categories:
-    - Uncategorized
+    - git
+tags:
+    - git
 ---
 
 <div>1. Rename your local branch.</div><div></div><div>If you are on the branch you want to rename:</div><div></div>> <div>git branch -m new-name</div>
