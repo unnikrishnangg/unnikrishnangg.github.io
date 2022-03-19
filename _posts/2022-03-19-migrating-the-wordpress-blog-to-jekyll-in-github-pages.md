@@ -20,7 +20,7 @@ tags:
 
 ---
 
-I was not getting much time recently to maintain this blog. We all know how dangerous it is to keep something in internet unmaintaied amidst the new vulnerabilities which are coming up day by day. The same applies to wordpress as it have multiple third party plugins as well which may open doors to hackers unless we update it with all patches. I read an article in Linkedin recently about jekyll which is a static site generator based on ruby. The good thing about jekyll is it can be hosted in github pages for free. 
+I was not getting much time recently to maintain this blog. We all know how dangerous it is to keep something in internet unmaintained amidst the new vulnerabilities which are coming up day by day. The same applies to wordpress as it have multiple third party plugins as well which may open doors to hackers unless we update it with all patches. I read an article in Linkedin recently about jekyll which is a static site generator based on ruby. The good thing about jekyll is it can be hosted in github pages for free. 
 
 
 This is not a detailed step by step guide. But I am trying to cover the process in a high level. 
@@ -29,7 +29,7 @@ I have used a wordpress plugin "Jekyll Exporter" to migrate the wordpress posts 
 
 ![](/assets/img/jekyll_exporter_in_wordpress.png)
 
-But it was not working to me for some reason. but there was another way using the wp cli which helped me to achieve this. Try this way if are also facing the issue to export it 
+But it was not working for me due to some reason. but there was another way using the wp cli which helped me to achieve this. Try this way if you are also facing the issue to export it using wp admin portal.
 
 ```wp jekyll-export > export.zip```
 
