@@ -38,13 +38,13 @@ If you are on Mac, you can invoke chrome from the terminal by calling the path a
 
 If we want to supply multiple rules, it can be done by appending one after another separated with a comma. 
 
-```chrome.exe --host-resolver-rules="MAP devopslife.io 192.168.1.1, MAP devopslife.com 1912.168.1.2"```
+```chrome.exe --host-resolver-rules="MAP devopslife.io 192.168.1.1, MAP devopslife.com 192.168.1.2"```
 
 
 
 You can validate if the above switch have taken effect by going to this url. 
 
-chrome://version
+```chrome://version```
 
 ![](../assets/img/resolve_dns_with_google_chrome_version.png)
 
