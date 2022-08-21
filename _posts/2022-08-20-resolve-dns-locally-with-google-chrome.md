@@ -3,11 +3,8 @@ layout: post
 author: Unni
 title: Resolve dns locally using google chrome
 date: 2022-08-20 12:40 +0800
-<<<<<<< HEAD
 last_modified_at: 2022-08-20T00:12:40+08:00
-=======
-last_modified_at: 022-08-20 12:40 +0800
->>>>>>> 2b6f60054a486c320a6ec91c807828aeb3691ac7
+
 permalink: /resolve-dns-locally-using-google-chrome/
 description: It is possible to resolve dns from google chrome itself even if we dont have admin access to update the hosts file. This comes very handy for developers who want to resolve dns locally and dont have admin access to update hosts file.
 published: true
