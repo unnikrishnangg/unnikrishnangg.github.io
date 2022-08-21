@@ -3,7 +3,7 @@ layout: post
 author: Unni
 title: Migrating the wordpress blog to jekyll in github pages
 date: 2022-03-19 10:07 +0800
-last_modified_at: 022-03-19 10:07 +0800
+last_modified_at: 2022-03-19T00:10:07+08:00
 permalink: /migrating-wordpress-to-github-pages/
 description: this post is a highlever explanation on how to migrate your wordpress blog to jekyll to host it free on github pages.
 published: true
